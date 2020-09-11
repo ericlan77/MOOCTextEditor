@@ -37,9 +37,12 @@ To complement function **Autocomplete**
 1. Find the stem
 2. Do a level order traversal from there  
 
-<img width="400" height="200" src="https://github.com/ericlan77/MOOCTextEditor/blob/master/images/trie.png"/><br> 
+<img width="400" height="250" src="https://github.com/ericlan77/MOOCTextEditor/blob/master/images/trie.png"/><br> 
 
 ## Spelling Suggestions
+<img width="550" height="230" src="https://github.com/ericlan77/MOOCTextEditor/blob/master/images/spellingsuggestion1.png">  
+<img width="550" height="230" src="https://github.com/ericlan77/MOOCTextEditor/blob/master/images/spellingsuggestion2.png">  
+<img width="550" height="230" src="https://github.com/ericlan77/MOOCTextEditor/blob/master/images/spellingsuggestion3.jpg">
 
 ## Word Distance
 What path of words takes us from "spell" to "mine"?<br>   
