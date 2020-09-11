@@ -47,3 +47,4 @@ d.getTokens("el|lo"); -> ["el","lo","el","lo"] // | means or
 ```
 d.getTokens()
 ```
+To Be Continue...
