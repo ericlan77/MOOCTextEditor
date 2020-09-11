@@ -26,7 +26,8 @@ FleschScore measuring how easy is your writing to read, more information you can
 Use [TreeSet](https://www.javatpoint.com/java-treeset)(balanced Binary Search Tree) data structure to store all words. It will spend O(logN) to find a word at average. The words put on the Application will be highlighted if mispelled.
 
 ## Autocomplete
-**class revolved:** AutoCompleteDictionaryTrie.java, TrieNode
+**class revolved:** AutoCompleteDictionaryTrie, TrieNode
+
 **trie data structure**<br>
 tries are trees, but node is hashmap. Providing we build a tree for all English words, maybe 25000, now if we use BST to find a word, the worst case is when the words not in the tree, the complexity is O(log(n)), max search time(最大搜索次数) is 18, but if we use trie, max word length(最大单词长度) is 18, so only when the max length of input word reach 18, there comes the max search time, but at most situation, length of input word(输入单词) is under 10, so the search time will limited under 10, is much better then using BST.
 
@@ -40,7 +41,7 @@ class Trie
   get();
   ...
 ```
-
+**AutoCompleteDictionaryTrie：** In this class, we should write methods for implementing a dictionary trie. 
 To complement function **Autocomplete**
 1. Find the stem
 2. Do a level order traversal from there  
