@@ -36,6 +36,7 @@ class Trie
 To complement function **Autocomplete**
 1. Find the stem
 2. Do a level order traversal from there
+<img width="400" height="200" src="https://github.com/ericlan77/MOOCTextEditor/blob/master/images/trie.jpg"/><br> 
 
 ## Spelling Suggestions
 
@@ -48,6 +49,7 @@ Now we know the Edit Distance between them are 5, Edit Distance is the number of
 
 How big the problem space is?<br>  
 
-<img width="400" height="180" src = "https://github.com/ericlan77/MOOCTextEditor/blob/master/images/2distance.jpg">  
+<img width="450" height="180" src = "https://github.com/ericlan77/MOOCTextEditor/blob/master/images/2distance.jpg">  
 
 So initial complexity of 2 distance away is (52k + 26) ^ 2, which determined by the length of word, we need pruning, remove those are not true words.
+
