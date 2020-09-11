@@ -35,8 +35,9 @@ class Trie
 
 To complement function **Autocomplete**
 1. Find the stem
-2. Do a level order traversal from there
-<img width="400" height="200" src="https://github.com/ericlan77/MOOCTextEditor/blob/master/images/trie.jpg"/><br> 
+2. Do a level order traversal from there  
+
+<img width="400" height="200" src="https://github.com/ericlan77/MOOCTextEditor/blob/master/images/trie.png"/><br> 
 
 ## Spelling Suggestions
 
