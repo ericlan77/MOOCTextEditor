@@ -37,4 +37,13 @@ To complement function **Autocomplete**
 1. Find the stem
 2. Do a level order traversal from there
 
-To Be Continue...
+## Spelling Suggestions
+
+## Word Distance
+What path of words takes us from "spell" to "mine"?<br>   
+spell -> spill -> pill -> pile -> pine -> mine<br>
+Now we know the Edit Distance between them are 5, Edit Distance is the number of modifications you need to make to one string to turn it into another, some applications are Computational Biology and Natural Language Processing.<br>
+
+Build a tree to search a problem space, how big is it?<br>
+There are (52k + 26) words are "1 away" from an initial word, why?<br>
+**25k for substitutions + 26(k+1) for insertions + k for deletions**
