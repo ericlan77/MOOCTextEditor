@@ -35,7 +35,8 @@ class Trie
 
 To complement function **Autocomplete**
 1. Find the stem
-2. Do a level order traversal from there
+2. Do a level order traversal from there  
+
 <img width="400" height="200" src="https://github.com/ericlan77/MOOCTextEditor/blob/master/images/trie.jpg"/><br> 
 
 ## Spelling Suggestions
@@ -45,7 +46,7 @@ What path of words takes us from "spell" to "mine"?<br>
 spell -> spill -> pill -> pile -> pine -> mine<br>
 Now we know the Edit Distance between them are 5, Edit Distance is the number of modifications you need to make to one string to turn it into another, some applications are Computational Biology and Natural Language Processing.  
 
-<img width="400" height="200" src="https://github.com/ericlan77/MOOCTextEditor/blob/master/images/8CDE966FF9684949A4655685DC31A7A5.jpg"/><br>  
+<img width="400" height="200" src="https://github.com/ericlan77/MOOCTextEditor/blob/master/images/8CDE966FF9684949A4655685DC31A7A5.png"/><br>  
 
 How big the problem space is?<br>  
 
