@@ -43,7 +43,6 @@ To complement function **Autocomplete**
 What path of words takes us from "spell" to "mine"?<br>   
 spell -> spill -> pill -> pile -> pine -> mine<br>
 Now we know the Edit Distance between them are 5, Edit Distance is the number of modifications you need to make to one string to turn it into another, some applications are Computational Biology and Natural Language Processing.<br>
-
-Build a tree to search a problem space, how big is it?<br>
-There are (52k + 26) words are "1 away" from an initial word, why?<br>
-**25k for substitutions + 26(k+1) for insertions + k for deletions**
+<img width="500" height="250" src="https://github.com/ericlan77/MOOCTextEditor/blob/master/images/8CDE966FF9684949A4655685DC31A7A5.jpg"/><br>
+how big the problem space is?<br>
+<img width="500" height="200" src = "https://github.com/ericlan77/MOOCTextEditor/blob/master/images/2distance.jpg"><br>
